@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Generic -->
+    <string name="app_name">Great Nurse</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Login Fragment -->
+    <string name="lblLoginTitle">Please Enter Your Information</string>
+    <string name="lblUsername">Username</string>
+    <string name="lblPinCode">Pin Code</string>
+    <string name="lblLoginButton">Login</string>
+
+</resources>
