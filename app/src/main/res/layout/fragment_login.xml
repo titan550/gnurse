@@ -22,12 +22,13 @@
             android:layout_height="wrap_content"
             android:layout_width="0dp"
             android:layout_weight="0.25"
-            android:text="@string/lblUsername"/>
+            android:text="@string/lblEmail"/>
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.75"
-            android:focusable="true"/>
+            android:focusable="true"
+            android:id="@+id/email"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,12 +38,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.25"
-            android:text="@string/lblPinCode"/>
+            android:text="@string/lblPassword"/>
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.75"
-            android:inputType="number"/>
+            android:inputType="number"
+            android:id="@+id/password"/>
         </LinearLayout>
     <Space
         android:layout_width="match_parent"

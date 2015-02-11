@@ -7,8 +7,8 @@
 
     <!-- Login Fragment -->
     <string name="lblLoginTitle">Please Enter Your Information</string>
-    <string name="lblUsername">Username</string>
-    <string name="lblPinCode">Pin Code</string>
+    <string name="lblEmail">Username</string>
+    <string name="lblPassword">Pin Code</string>
     <string name="lblLoginButton">Login</string>
 
 </resources>
