@@ -26,6 +26,7 @@ public class UserDbHelper extends SQLiteOpenHelper
                 UserEntry.COLUMN_EMAIL + " TEXT NOT NULL, " +
                 UserEntry.COLUMN_NAME + " TEXT NOT NULL, " +
                 UserEntry.COLUMN_API_KEY + " TEXT NOT NULL, " +
+                UserEntry.COLUMN_API_EXPIRY + " TEXT, " +
                 "UNIQUE (" + UserEntry.COLUMN_EMAIL + ") ON CONFLICT REPLACE" +
                 " );";
 
